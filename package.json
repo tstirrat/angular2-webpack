@@ -1,0 +1,23 @@
+{
+  "name": "angular2test",
+  "version": "0.0.1",
+  "description": "Angular 2 test with Webpack",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server",
+    "test": "gulp test"
+  },
+  "author": "tstirrat",
+  "license": "MIT",
+  "devDependencies": {
+    "angular2": "^2.0.0-alpha.40",
+    "firebase": "^2.3.1",
+    "reflect-metadata": "^0.1.2",
+    "ts-loader": "^0.5.6",
+    "typescript": "^1.6.2",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0",
+    "zone.js": "^0.5.8"
+  },
+  "private": true
+}
